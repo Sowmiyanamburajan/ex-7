@@ -1,0 +1,23 @@
+list1=["magazine","newspaper","novel","book1"]
+list2=["python book","javabook"]
+#indexing
+print(list1[2])
+#slicing
+print(list1[0:2])
+print(list1[:])
+#concatenation
+print(list1+list2)
+#repetition
+print(list2*2)
+#append()
+list2.append("c++")
+print(list2)
+#extend
+list2.insert(2,"C")
+print(list2)
+#pop()
+list2.pop(3)
+print(list2)
+#remove
+list2.remove("javabook")
+print(list2)
